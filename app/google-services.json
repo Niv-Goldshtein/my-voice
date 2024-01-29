@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "761713330435",
+    "firebase_url": "https://my-voice-27117-default-rtdb.firebaseio.com",
+    "project_id": "my-voice-27117",
+    "storage_bucket": "my-voice-27117.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761713330435:android:d96b960b1eb1a9d5b64136",
+        "android_client_info": {
+          "package_name": "com.example.myvoice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj2k6GyHG3hO13dHLqDSr5rID7Hek1bfk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

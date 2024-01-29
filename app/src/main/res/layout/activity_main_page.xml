@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/configaration_background"
+    android:gravity="center"
+    tools:context="com.example.comps.myvoice.MainPageActivity">
+
+    <TextView
+        android:id="@+id/tvWhatYouCanSay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What You Can Say"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvPlaySong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.play my favorite song"
+        android:textSize="30dp"
+
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="תתקשר ל והשם של מי שתרצה להתקשר אליו"
+        android:textSize="30dp"
+
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 תשלח הודעה ל והשם של מי שתרצה לשלוח הודעה"
+        android:textSize="30dp"
+
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.ask google"
+        android:textSize="30dp"
+
+        android:textColor="@android:color/black"  />
+
+    <TextView
+        android:id="@+id/tvGoWaze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5.go waze"
+        android:textSize="30dp"
+
+        android:textColor="@android:color/black"  />
+
+    <Button
+        app:backgroundTint="@null"
+
+        android:id="@+id/btnSayWhatToDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:text="לחץ כאן על מנת לאמר מה ברצונך שאעשה" />
+
+
+</LinearLayout>
